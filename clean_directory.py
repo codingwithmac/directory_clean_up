@@ -29,7 +29,7 @@ image_dest = os.path.join(documents_folder, "Image Files")
 programs_dest = os.path.join(documents_folder, "Programs Files")
 zip_dest = os.path.join(documents_folder, "Zip Folders")
 python_dest = os.path.join(documents_folder, "Python Files")
-#other_dest = 'C:/Users/mario.centis/Documents/Other Files'
+
 
 word_files = []
 excel_files = []
@@ -39,7 +39,7 @@ image_files = []
 programs_files = []
 zip_folders = []
 python_files = []
-#other_files = []
+
 
 for file in os.listdir(src):
     if file.endswith('.doc') or file.endswith('.docx'):
